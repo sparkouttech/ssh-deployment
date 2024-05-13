@@ -16,7 +16,7 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
     - name: deploy to server
-      uses: sparkouttech/ssh-deployment@main
+      uses: sparkouttech/ssh-deployment@v2
       env:
           DEPLOY_KEY: ${{ secrets.SERVER_SSH_KEY }}
           ARGS: "-e -c -r --delete"
