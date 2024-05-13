@@ -1,4 +1,4 @@
-name: "SSH Deployment"
+name: "ssh-deployment"
 description: "Deploy files to a server using SSH and rsync"
 author: "saranraj"
 
