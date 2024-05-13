@@ -1,4 +1,4 @@
-name: "ssh-deployment"
+name: "ssh-deployment-sparkouttech"
 description: "Deploy files to a server using SSH and rsync"
 author: "sparkouttech"
 
